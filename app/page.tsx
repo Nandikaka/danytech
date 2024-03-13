@@ -35,69 +35,87 @@ export default function Home() {
           <CarouselItem>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-                <p className="text-tiny text-white/60 uppercase font-bold">
-                  What to watch
+                <p className="text-lg text-white/60 uppercase font-bold">
+                  Informatii noi sau importante merg aici
                 </p>
-                <h4 className="text-white font-medium text-large">
-                  Stream the Acme event
+                <h4 className="text-white font-medium text-4xl">
+                  Descriere mai detaliata aici
                 </h4>
               </CardHeader>
               <Image
                 src={placeholderImage}
                 alt="Card background"
-                className="z-0 w-full h-full object-cover"
+                className="z-0 w-full h-full object-cover brightness-75"
               />
+              <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                <Button
+                  className="text-lg text-white bg-black"
+                  variant="flat"
+                  color="default"
+                  radius="lg"
+                  size="md"
+                >
+                  Mai multe detalii
+                </Button>
+              </CardFooter>
             </Card>
           </CarouselItem>
+
           <CarouselItem>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-                <p className="text-tiny text-white/60 uppercase font-bold">
-                  What to watch
+                <p className="text-lg text-white/60 uppercase font-bold">
+                  Informatii noi sau importante merg aici
                 </p>
-                <h4 className="text-white font-medium text-large">
-                  Stream the Acme event
+                <h4 className="text-white font-medium text-4xl">
+                  Descriere mai detaliata aici
                 </h4>
               </CardHeader>
               <Image
                 src={placeholderImage}
                 alt="Card background"
-                className="z-0 w-full h-full object-cover"
+                className="z-0 w-full h-full object-cover brightness-75"
               />
+              <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                <Button
+                  className="text-lg text-white bg-black"
+                  variant="flat"
+                  color="default"
+                  radius="lg"
+                  size="md"
+                >
+                  Mai multe detalii
+                </Button>
+              </CardFooter>
             </Card>
           </CarouselItem>
+
           <CarouselItem>
             <Card className="col-span-12 sm:col-span-4 h-[400px]">
               <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-                <p className="text-tiny text-white/60 uppercase font-bold">
-                  What to watch
+                <p className="text-lg text-white/60 uppercase font-bold">
+                  Informatii noi sau importante merg aici
                 </p>
-                <h4 className="text-white font-medium text-large">
-                  Stream the Acme event
+                <h4 className="text-white font-medium text-4xl">
+                  Descriere mai detaliata aici
                 </h4>
               </CardHeader>
               <Image
                 src={placeholderImage}
                 alt="Card background"
-                className="z-0 w-full h-full object-cover"
+                className="z-0 w-full h-full object-cover brightness-75"
               />
-            </Card>
-          </CarouselItem>
-          <CarouselItem>
-            <Card className="col-span-12 sm:col-span-4 h-[400px]">
-              <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-                <p className="text-tiny text-white/60 uppercase font-bold">
-                  What to watch
-                </p>
-                <h4 className="text-white font-medium text-large">
-                  Stream the Acme event
-                </h4>
-              </CardHeader>
-              <Image
-                src={placeholderImage}
-                alt="Card background"
-                className="z-0 w-full h-full object-cover"
-              />
+              <CardFooter className="justify-between   overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
+                <Button
+                  className="text-lg text-white bg-black"
+                  variant="flat"
+                  color="default"
+                  radius="lg"
+                  size="md"
+                >
+                  Mai multe detalii
+                </Button>
+              </CardFooter>
             </Card>
           </CarouselItem>
         </CarouselContent>
